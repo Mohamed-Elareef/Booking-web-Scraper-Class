@@ -19,9 +19,10 @@ You will need to have the following software installed on your machine:
 2. Include the file in your project:
 ```php
 require_once 'BookingScraper.php';
-
-
+```
+```php
 $scraper = new BookingScraper('https://www.booking.com/hotel/us/example.html');
+```
 
 ### Usage
 You can use the following methods to extract specific data from the hotel page:
